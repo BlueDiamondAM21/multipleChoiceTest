@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="createTest">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="13" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1005" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none" title=""/>
+    <children>
+      <component id="b4085" class="javax.swing.JLabel" binding="Q1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="A financial magazine conducted a survey. It showed that a person with more years of education tends to have a higher salary. What is likely true"/>
+        </properties>
+      </component>
+      <vspacer id="ceba">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="60c17" class="javax.swing.JLabel" binding="Q2">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="What is the answer to, 3*4 +13 = ?"/>
+        </properties>
+      </component>
+      <component id="8e3e9" class="javax.swing.JLabel" binding="Q3">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="What is the answer to, 729 - (-12) -121 = ?"/>
+        </properties>
+      </component>
+      <component id="8bf71" class="javax.swing.JLabel" binding="Q4">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="2 + 4 * 8"/>
+        </properties>
+      </component>
+      <component id="9795d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Answer"/>
+        </properties>
+      </component>
+      <component id="e6da" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Answer"/>
+        </properties>
+      </component>
+      <component id="c2d57" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Answer"/>
+        </properties>
+      </component>
+      <component id="56a0f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Answer"/>
+        </properties>
+      </component>
+      <component id="959cc" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="There is a correlation between years of education and salary. There may or may not be causation. Further studies would have to be done to determine this."/>
+            <item value="There is no correlation between years of education and salary."/>
+            <item value="There is a correlation between years of education and salary. There is probably also causation. This is because there is an increase in salary with an increase in the years of education."/>
+          </model>
+        </properties>
+      </component>
+      <component id="ef432" class="javax.swing.JComboBox" binding="comboBox2" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="14"/>
+            <item value="5204"/>
+            <item value="25"/>
+            <item value="19"/>
+          </model>
+        </properties>
+      </component>
+      <component id="1d1e8" class="javax.swing.JComboBox" binding="comboBox3" default-binding="true">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="412"/>
+            <item value="1204"/>
+            <item value="620"/>
+            <item value="149"/>
+          </model>
+        </properties>
+      </component>
+      <component id="90e7f" class="javax.swing.JComboBox" binding="comboBox4" default-binding="true">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="57"/>
+            <item value="20"/>
+            <item value="92"/>
+            <item value="34"/>
+          </model>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
