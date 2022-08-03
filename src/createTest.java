@@ -11,7 +11,8 @@ public class createTest {
     private JLabel Q4;
 
     public JFrame getcreateTest() {
-        //return createTest;
+        JFrame createTest = null;
+        return createTest;
     }
 
 
